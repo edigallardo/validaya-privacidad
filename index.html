@@ -1,5 +1,5 @@
 <!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Política de privacidad - ValidaYa</title><style>body{font-family:system-ui,sans-serif;max-width:760px;margin:2rem auto;padding:0 1rem;line-height:1.6;color:#0f1f3d}table{border-collapse:collapse;width:100%}td,th{border:1px solid #ccc;padding:6px;text-align:left;vertical-align:top}</style></head><body><h1>Política de privacidad — ValidaYa</h1>
-<p><strong>Última actualización:</strong> 18 de octubre de 2026
+<p><strong>Última actualización:</strong> 18 de octubre de 2026 (v1.2: suscripciones y correo)
 <strong>Responsable:</strong> Edison Jimenez, Ecuador
 <strong>Contacto de privacidad:</strong> edisonfabian167@gmail.com</p>
 <p>ValidaYa ("la app") ayuda a comercios a verificar que una transferencia
@@ -50,6 +50,16 @@ entidades se usan solo para indicar de qué app proviene un aviso.</p>
 <td>Generados por el servicio</td>
 </tr>
 <tr>
+<td>Correo electrónico (opcional)</td>
+<td>Vincular tu cuenta para no perder tus datos al cambiar de teléfono y enviar el código de verificación</td>
+<td>Lo ingresa el dueño en <em>Mi cuenta</em></td>
+</tr>
+<tr>
+<td>Estado de suscripción: plan, fechas de prueba y vencimiento, identificador de compra de Google Play</td>
+<td>Activar y mantener tu plan</td>
+<td>Google Play informa la compra; la verificamos con Google</td>
+</tr>
+<tr>
 <td>Imagen de la cámara</td>
 <td>Escanear el QR de emparejamiento</td>
 <td>Solo en el momento de escanear; <strong>no se guarda ni se envía</strong></td>
@@ -63,6 +73,7 @@ entidades se usan solo para indicar de qué app proviene un aviso.</p>
 <li>No almacenamos el texto completo de las notificaciones: solo los campos de
   la tabla anterior.</li>
 <li>No accedemos a contactos, ubicación, SMS ni archivos.</li>
+<li>No recibimos ni guardamos tu tarjeta ni datos de pago: los cobros los procesa Google Play.</li>
 <li>No vendemos datos ni los compartimos con terceros con fines publicitarios.</li>
 <li>No mostramos publicidad.</li>
 </ul>
@@ -73,12 +84,14 @@ mantener el historial y reportes del comercio; (c) detectar pagos duplicados;
 <h2>4. Con quién se comparten</h2>
 <p>Usamos <strong>Supabase</strong> (base de datos y autenticación) como proveedor de
 infraestructura para almacenar los datos, bajo acuerdos de tratamiento de
-datos. No hay otros terceros que reciban datos de las transferencias. Podemos
+datos. Las suscripciones se cobran mediante <strong>Google Play Billing</strong>; Google procesa el pago bajo su propia política de privacidad y nos informa solo el estado de la suscripción. No hay otros terceros que reciban datos de las transferencias. Podemos
 divulgar información si una autoridad competente lo exige conforme a la ley.</p>
 <h2>5. Seguridad</h2>
 <p>Los datos viajan cifrados (HTTPS/TLS) y el acceso a cada negocio está
 aislado mediante políticas de seguridad a nivel de fila: un comercio solo
 puede ver sus propios datos.</p>
+<h2>5.1 Suscripciones y prueba gratuita</h2>
+<p>Cada negocio nuevo recibe una prueba gratuita de 14 días. Después se requiere una suscripción mensual o anual que se renueva automáticamente hasta que la cancelas en Google Play. Si cancelas, conservas el acceso hasta el fin del periodo pagado.</p>
 <h2>6. Conservación y eliminación</h2>
 <p>Conservamos los datos mientras tu cuenta esté activa. Puedes:
 - <strong>Desvincular</strong> el dispositivo desde <em>Ajustes → Desvincular dispositivo</em>.
